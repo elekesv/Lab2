@@ -1,9 +1,13 @@
 #include <stdio.h>
-// #include <math.h> Why don't we need this library?
+#include <math.h>
 
 int main()
 {
-    // declare  variable, set its value to 1
+    int h = 1;
+    while(h < 20){
+        printf("%d\n", h);
+        h = h+1;
+    }
 
     // create a while loop that runs while the variable is less than or equal to 20
     {
